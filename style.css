@@ -6,11 +6,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: inter;
     margin: 10px 150px;
 }
 
 nav h3{
-    color: #4E47FF;
+    color:#4E47FF;
     font-size: 20px;
 }
 
@@ -109,10 +110,12 @@ nav ul a button{
 }
 
       .user h2{
+      
       font-family: "Raleway", sans-serif;
       color:#252432 ;
       font-size: 28px;
       font-weight: 700;
+      margin-bottom: 30 px;
       }
 
       .user .box{
@@ -123,23 +126,49 @@ nav ul a button{
     }
 
      .user .box h3{
-     font-family: "Raleway", sans-serif;
+     font-family: inter;
       font-weight: bold;
       font-size: 50px;
       color: #4E47FF;
-      margin: 0;
+      margin top: 5px ;
     }
 
      .user .box p{
       color: #000000;
-      margin-top: 10px;
       font-weight: 500;
+      margin-top: -10px;
+      line-height: 0px;
      }
 
-     .feedback{
-      align-items: center;
-     }
+     .feedback h2{
+      color:#252432 ; 
+      text-align:center;
+      font-weight: ;
+    }
 
 
+ .feedback .feedback-section{
+  justify-content: center;
+  display: flex;
+  gap: 160px ;
+  margin-right: 20px;
+ }
 
-  
+ .feedback-child {
+  display: flex;
+  gap: 10px;
+ }
+
+ .feedback-child img{
+  border-radius: 50%;
+ }
+
+ .feedback-child label{
+border: none;
+font-weight: bold;
+ }
+
+  .feedback-child input{
+    color: #252432;
+    border: none;
+  }
