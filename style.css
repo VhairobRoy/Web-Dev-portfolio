@@ -28,6 +28,11 @@ nav ul a button{
     border-radius: 5px;
     color: #FFFFFF;
 }
+
+nav ul a button:hover{
+        background-color: rgb(255, 215, 0);
+        transition: 1s;}
+
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 .banner{
     text-align: center;
@@ -50,6 +55,10 @@ nav ul a button{
     border: none;
     border-radius: 10px;
 }
+
+.banner button:hover{
+        background-color: rgb(255, 215, 0);
+        transition: 1s;}
 
     body {
     font-family: "Raleway", sans-serif;
@@ -87,6 +96,10 @@ nav ul a button{
       border-radius: 5px;
       font-size: 16px;
     }
+
+    .action-left button:hover{
+        background-color: rgb(255, 215, 0);
+        transition: 1s;}
 
     .action-right {
       flex: 1;
@@ -202,7 +215,59 @@ font-weight: bold;
 
    }
 
+
+     .focus button:hover{
+        background-color: rgb(255, 215, 0);
+        transition: 1s;}
+
    .focus img{
     line-height: 20px;
     border-radius: 20px;
    }
+
+   .Touch{
+    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .Touch .Left-Side{
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+   }
+
+     .Touch .Right-Side{
+      line-height:2rem;
+     }
+
+      .Touch .Right-Side input{
+        background-color: #FFFFFF;
+        border: none;
+        text-decoration: none;
+        padding: 20px;
+        width: 300px;
+
+      }
+
+      .Touch .Right-Side .message-section{
+        background-color: #FFFFFF;
+        padding: 20px;
+        height: 80px;
+        width: 300px;
+
+      }
+
+      .Touch .Right-Side button{
+        margin-top: 20px;
+        background-color: #4E47FF;
+        border: none;
+        width: 370px;
+        padding: 20px;
+        border-radius: 20px;
+      }
+
+       .Touch .Right-Side button:hover{
+        background-color: rgb(255, 215, 0);
+        transition: 1s;}
