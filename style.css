@@ -1,0 +1,145 @@
+
+header{
+  background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+
+nav h3{
+    color: #4E47FF;
+    font-size: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a button{
+    background-color:#4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+.banner{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.banner h1{
+   font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    color: #252432;
+}
+
+.banner button{
+    background-color: #4E47FF;
+    font-size: 16px;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+    body {
+    font-family: "Raleway", sans-serif;
+    margin: 10px 10px;
+    }
+
+    .action-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 150px;
+    }
+
+    .action-left {
+      flex: 1;
+    }
+
+    .action-left h2 {
+      color:#252432;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .action-left p {
+      color: #252432;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .action-left button {
+      background-color: #5c4dff;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .action-right {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .action-right img {
+      border-radius: 20px;
+      box-shadow: 20px rgba(0,0,0,0.1);
+    }
+
+    .user {
+      background-color: #cdc5ea;
+      color:#252432;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 20px;
+      width: 1140px;
+      margin: 20px auto;
+}
+
+      .user h2{
+      font-family: "Raleway", sans-serif;
+      color:#252432 ;
+      font-size: 28px;
+      font-weight: 700;
+      }
+
+      .user .box{
+      display: flex;
+      justify-content: center;
+      gap: 160px;
+      margin-left: 0px;
+    }
+
+     .user .box h3{
+     font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+      color: #4E47FF;
+      margin: 0;
+    }
+
+     .user .box p{
+      color: #000000;
+      margin-top: 10px;
+      font-weight: 500;
+     }
+
+     .feedback{
+      align-items: center;
+     }
+
+
+
+  
