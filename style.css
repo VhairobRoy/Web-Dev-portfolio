@@ -2,6 +2,8 @@
 header{
   background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
 }
+
+      /* ----------------------- Nav section---------------------- */
 nav{
     display: flex;
     align-items: center;
@@ -10,30 +12,43 @@ nav{
     margin: 10px 150px;
 }
 
-nav h3{
-    color:#4E47FF;
-    font-size: 20px;
+nav h3{font-family: inter;
+    font-size: 30px;
+}
+
+nav h3 a{
+  text-decoration: none;
+  border: none;
+  color: #4E47FF;
 }
 
 nav ul{
     list-style: none;
 }
 
-nav ul a button{
+nav ul button{
     background-color:#4E47FF;
     font-weight: bold;
     font-size: 16px;
-    padding: 7px;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
 }
 
-nav ul a button:hover{
+nav ul button a{
+  text-decoration: none;
+  border: none;
+  color: #FFFFFF;
+}
+
+
+
+nav ul button:hover{
         background-color: rgb(255, 215, 0);
         transition: 1s;}
 
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+      /* ----------------------- banner section---------------------- */
 .banner{
     text-align: center;
     font-weight: bold;
@@ -56,15 +71,25 @@ nav ul a button:hover{
     border-radius: 10px;
 }
 
+.banner button a{
+  text-decoration: none;
+  border: none; 
+  color: #FFFFFF;
+
+}
+
 .banner button:hover{
         background-color: rgb(255, 215, 0);
         transition: 1s;}
 
-    body {
+              /* ----------------------- body section---------------------- */
+body {
     font-family: "Raleway", sans-serif;
     margin: 10px 10px;
     }
+    
 
+          /* ----------------------- action section---------------------- */
     .action-section {
       display: flex;
       justify-content: space-between;
@@ -97,9 +122,17 @@ nav ul a button:hover{
       font-size: 16px;
     }
 
+      .action-left button a{
+          text-decoration: none;
+          border: none;
+          color: #FFFFFF;
+
+  }
+
     .action-left button:hover{
         background-color: rgb(255, 215, 0);
-        transition: 1s;}
+        transition: 1s;
+  }
 
     .action-right {
       flex: 1;
@@ -111,6 +144,8 @@ nav ul a button:hover{
       border-radius: 20px;
       box-shadow: 20px rgba(0,0,0,0.1);
     }
+
+          /* ----------------------- user section---------------------- */
 
     .user {
       background-color: #cdc5ea;
@@ -153,6 +188,8 @@ nav ul a button:hover{
       line-height: 0px;
      }
 
+
+           /* ----------------------- feedback section---------------------- */
      .feedback h2{
       color:#252432 ; 
       text-align:center;
@@ -187,6 +224,8 @@ font-weight: bold;
     border: none;
   }
 
+
+         /* ----------------------- focus section---------------------- */
   .focus{
   margin-top: 150px;
   text-align: center;
@@ -212,21 +251,30 @@ font-weight: bold;
         border: none;
         padding: 10px 30px;
         border-radius: 10px;
+}
 
-   }
+.focus button a{
+          text-decoration: none;
+          border: none;
+          color: #FFFFFF;
 
+}
 
      .focus button:hover{
         background-color: rgb(255, 215, 0);
-        transition: 1s;}
+        transition: 1s;
+}
 
    .focus img{
     line-height: 20px;
     border-radius: 20px;
    }
 
+
+     /* ----------------------- touch section---------------------- */ 
+
    .Touch{
-    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-color: #f1f7f7;
     padding: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -260,6 +308,8 @@ font-weight: bold;
       }
 
       .Touch .Right-Side button{
+        font-size: 20px;
+        font-weight: bo;
         margin-top: 20px;
         background-color: #4E47FF;
         border: none;
@@ -268,6 +318,58 @@ font-weight: bold;
         border-radius: 20px;
       }
 
+      .Touch .Right-Side button a{
+          font-family: "Raleway", sans-serif;  
+          text-decoration: none;
+          border: none;
+          color: #FFFFFF;
+
+      }
+
        .Touch .Right-Side button:hover{
         background-color: rgb(255, 215, 0);
         transition: 1s;}
+
+      /* ----------------------- footer section---------------------- */
+        
+        footer{
+          font-family: inter;
+          text-align: center;
+          text-decoration: none;
+          list-style: none;
+        }
+
+   footer h1{
+    font-size: 100px;
+   }
+
+   footer h1 a{
+          text-decoration: none;
+          border: none;
+          color:  #4E47FF;
+
+   }
+
+   footer{
+    color: #8987A1;
+   }
+
+
+         footer .menu{
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          gap: 30px;
+        }
+
+        footer .menu a{
+          text-decoration: none;
+          border: none;
+          color: none;
+          color:#8987A1;
+
+        }
+
+
+        
+      /* ----------------------- end---------------------- */
