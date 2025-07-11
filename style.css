@@ -143,7 +143,8 @@ nav ul a button{
      .feedback h2{
       color:#252432 ; 
       text-align:center;
-      font-weight: ;
+      font-weight:bold ;
+      font-size: ;
     }
 
 
@@ -172,3 +173,36 @@ font-weight: bold;
     color: #252432;
     border: none;
   }
+
+  .focus{
+  margin-top: 150px;
+  text-align: center;
+  display: inline block;
+  height: auto;
+}
+
+  .focus h2 {
+      font-family: "Raleway", sans-serif;
+      color: #000000;
+      font-size: 50px;
+  }
+
+  .focus P {
+      font-family: "Raleway", sans-serif;
+      color: #000000;
+  }
+
+   .focus button{
+        font-family: "Raleway", sans-serif;
+        color: #FFFFFF;
+        background-color: #4E47FF;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 10px;
+
+   }
+
+   .focus img{
+    line-height: 20px;
+    border-radius: 20px;
+   }
